@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>ico-circle-check</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="TESTE-MAURICIO" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico-circle-check" fill="#000000">
+            <g id="Combined-Shape">
+                <path d="M44,6 C23.0126,6 6,23.0126 6,44 C6,64.9874 23.0126,82 44,82 C64.9861333,82 82,64.9874 82,44 C82,23.0126 64.9861333,6 44,6 Z M38.4376838,58.8646678 C39.8909271,60.6812218 42.6755342,60.6126288 44.0375751,58.726726 L62.3338714,33.3933927 C63.4716107,31.8180613 63.1168723,29.6186828 61.5415408,28.4809435 C59.9662094,27.3432041 57.766831,27.6979425 56.6290916,29.273274 L41.1851858,51.0370369 L32.6734273,40.3945915 C31.4595048,38.8771884 29.2453279,38.6311687 27.7279248,39.8450912 C26.2105217,41.0590137 25.9645021,43.2731906 27.1784246,44.7905937 L38.4376838,58.8646678 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

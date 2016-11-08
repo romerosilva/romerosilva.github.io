@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Loggi - Central de Ajuda</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/faq.css" rel="stylesheet">
+	<link href="css/article.css" rel="stylesheet">
+	<link href="css/send-request.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+<body>
+    <div class="container send-request-container">
+        <h2>Entre em contato com a gente :)</h2>
+        <p>Respondemos em até 5 minutos para corridas em andamento.
+Para outras solicitações, responderemos em até 4h.</p>
+        <form class="send-request-form" action="">
+            <div class="row">
+                <div class="form-group has-success has-feedback col-md-8">
+                    <label for="name">Nome</label>
+                    <input class="form-control" type="text" id="name">
+                    <span class="form-control-feedback"></span>
+                </div>
+                <div class="form-group has-success has-feedback col-md-4">
+                    <label for="phone-mask">Telefone</label>
+                    <input class="form-control" type="tel" id="phone-mask">
+                    <span class="form-control-feedback"></span> 
+                </div>
+                <div class="form-group has-warning has-feedback col-md-12">
+                    <label for="form-email">Email</label>
+                    <input class="form-control" type="email" id="form-email">
+                    <span class="form-control-feedback"></span> 
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="form-need">O que você precisa?</label>
+                    <select class="form-control" id="form-need">
+                        <option value="" disabled selected>Escolha uma opção</option>
+                        <option value="">Gostaria de alterar uma corrida em andamento</option>
+                        <option value="">Nota fiscal, boleto, débito no cartão etc</option>
+                        <option value="">Fiz uma compra online e a entrega será feita pela Loggi</option>
+                        <option value="">Sou um mensageiro / gostaria de ser um mensageiro parceiro</option>
+                        <option value="">Dúvida sobre minha conta / dúvidas sobre a plataforma</option>
+                        <option value="">Dúvida sobre cadastros: de pessoa Física / Júridica / E-commerce </option>
+                        <option value="">Outros(dúvidas, reclamação, sugestão ou elogio)</option>    
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="form-reason">Motivo</label>
+                    <select class="form-control" id="form-reason">
+                        <option value="" disabled selected>Escolha uma opção</option>
+                        <option value="">Alterar a ordem dos pontos</option>
+                        <option value="">Editar complemento</option>
+                        <option value="">Editar informações da entrega</option>
+                        <option value="">Adicionar novo destino</option>
+                        <option value="">Incluir retorno para o ponto de origem</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="form-route">Número do pedido ou rota (caso necessário)</label>
+                    <input class="form-control" type="text" id="form-route">
+                </div>
+                <div class="form-group has-error has-feedback col-md-12">
+                    <label for="form-message">Mensagem</label>
+                    <textarea class="form-control" rows="3" id="form-route"></textarea>
+                    <span class="form-control-feedback"></span> 
+                </div>
+            </div>
+        </form>              
+        <div class="row">
+            <form action="/file-upload" class="dropzone">
+                <div class="dz-container">
+                    <span class="dz-message">Clique ou arraste para enviar arquivos</span>
+                    <span class="dz-icon pull-right"></span>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <button class="pull-right">Enviar</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="libs/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="libs/mask/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="libs/dropzone/dropzone.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>   
+</body>
+</html>

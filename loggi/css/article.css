@@ -1,0 +1,90 @@
+.article-content {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.article-content p {
+  line-height: 37px;
+  margin: 0;
+}
+.article-content .row.feedback-container {
+  padding: 50px 0;
+  border-bottom: 2px solid #D0DDE9;
+}
+.article-content .feedback {
+  display: inline-block;
+  margin-left: 5px;
+}
+.article-content .feedback > a.feedback-yes,
+.article-content .feedback a.feedback-no {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+.article-content .feedback > a.feedback-yes > span,
+.article-content .feedback a.feedback-no > span {
+  display: inline-block;
+  vertical-align: sub;
+  background: url('../assets/circle-check-green.png') center no-repeat;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+}
+.related-topics h3 {
+  font-size: 28px;
+}
+.related-topics a {
+  font-size: 18px;
+}
+.extra-help {
+  margin-bottom: 20px;
+}
+.extra-help .row {
+  text-align: center;
+  border: 1px solid #979797;
+  padding: 40px;
+}
+.extra-help .row p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.extra-help .row a:link,
+.extra-help .row a:hover,
+.extra-help .row a:visited,
+.extra-help .row a:active {
+  display: inline-block;
+  border: 2px solid #00BBFD;
+  padding: 10px 15px;
+  color: #000000;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .container.article-container .row {
+    margin: 0;
+  }
+  .container.article-container #questions {
+    padding: 0 0 50px 0;
+  }
+  .container.article-container #questions li {
+    list-style-type: none;
+    padding: 20px 0;
+    border-bottom: 2px solid #D0DDE9;
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .container.article-container #questions li > a {
+    color: #000000;
+  }
+  .container.article-container .extra-help .row {
+    padding: 20px 15px;
+    margin-bottom: 60px;
+  }
+  .container.article-container .extra-help .row h2 {
+    margin-top: 0;
+  }
+  .container.article-container .extra-help .row p {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+}

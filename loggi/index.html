@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Loggi - Central de Ajuda</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body id="page-top" class="index">
+        <!-- Navigation -->
+        <header>
+            <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <div id="navbar-header-top" class="row">
+                            <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span><span id="icon-menu"></span>
+                            </button>
+                            <a class="navbar-brand" href="#page-top"><span></span></a>
+                            <a id="send-request" class="rightmost-button visible-xs-inline-block  pull-right" href="send-request.html">Enviar solicitação</a>
+                            <a id="menu-close" class="rightmost-button hidden pull-right" href="#">
+                                <span id="icon-close"></span>
+                            </a>
+                        </div>
+                        <div id="search-bar" class="row visible-xs-block">
+                            <input type="text" />
+                        </div>
+                        <div id="login-bar" class="hidden">
+                            <div class="container">
+                                    <a href="send-request.html">Enviar solicitação</a>
+                                    <button class="pull-right">Entrar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <div class="navbar-inner">
+                            <ul class="nav navbar-nav navbar-links">
+                                <li class="active leftmost">
+                                    <a href="#page-top">
+                                        <span id="icon-home" class="visible-xs-inline-block"></span>
+                                        <span>Início</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="faq.html">
+                                        <span id="icon-about" class="visible-xs-inline-block"></span>
+                                        <span>Sobre a Loggi</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown">
+                                    <div>
+                                        <span id="icon-clients" ></span>
+                                        <span class="visible-xs-inline-block">Clientes</span>
+                                        <a  href="faq.html" 
+                                            class="dropdown-toggle hidden-xs" 
+                                            data-toggle="dropdown"
+                                            role="button"
+                                            aria-haspopup="true"
+                                            aria-expanded="false">Clientes
+                                        </a>
+                                        <div class="arrow-up hidden"></div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="faq.html">Empresas</a>
+                                            </li>
+                                            <li>
+                                                <a href="faq.html">E-commerce</a>
+                                            </li>
+                                            <li>
+                                                <a href="faq.html">Restaurantes</a>
+                                            </li>
+                                            <li>
+                                                <a href="faq.html">Pessoa física</a>
+                                            </li>
+                                        </ul>
+                                    </div>                                
+                                </li>
+                                <li class="sub-list visible-xs-block"><a href="faq.html"><span>Empresas</span></a></li>
+                                <li class="sub-list visible-xs-block"><a href="faq.html"><span>E-commerce</span></a></li>
+                                <li class="sub-list visible-xs-block"><a href="faq.html"><span>Restaurantes</span></a></li>
+                                <li class="sub-list visible-xs-block"><a href="faq.html"><span>Pessoa física</span></a></li>
+                                <li>
+                                    <div>
+                                        <span id="icon-messengers" ></span>
+                                        <span>Mensageiros</span>
+                                    </div>
+                                </li>
+                                <li class="sub-list visible-xs-block"><a href="html"><span>Moto</span></a></li>
+                                <li class="sub-list visible-xs-block"><a href="html" ><span>Van</span></a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-login hidden-xs">
+                                <li class="pull-right"><button>Entrar</button></li>
+                                <li class="pull-right"><a href="send-request.html">Enviar solicitação</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+            </nav>
+        </header>
+
+        <!-- Welcome section -->
+        <section id="welcome" class="img-responsive center-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="welcome-text">
+                            <h1>Bem vindo!<br/>
+                                Como podemos te ajudar?
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row hidden-xs">
+                    <input type="text"/>
+                </div>
+                <div id="contact-number" class="row">
+                    <div class="col-xs-10 col-xs-offset-1">
+                        É cliente e precisa de ajuda em uma corrida em andamento?<br/>
+                        4000-1212
+                    </div>
+                </div>
+                <div class="row next-button page-scroll"><a href="#contact-us"><span/></a></div>        
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact-us">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1>Sou cliente e tenho uma
+                            corrida em andamento <br/>
+                            4000-1212
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div id="img-contact-us" class="img-responsive center-block" />
+        </section>
+
+        <!-- Faq Section -->
+        <section id="faq">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Dúvidas frequentes</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Sobre a Loggi</h3>
+                        <ul>
+                            <li><a href="#">O que é a Loggi?</a></li>
+                            <li><a href="#">Quais os tipos de serviços que oferecemos?</a></li>
+                            <li><a href="#">Quem pode usar?</a></li>
+                            <li><a href="#">Quando posso usar a Loggi?</a></li>
+                            <li><a href="#">Onde posso fazer entregas com a Loggi?</a></li>        
+                        </ul>
+                        <div><button>Ver todos</button></div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Empresas</h3>
+                        <ul>
+                            <li><a href="#">Quero enviar um pacote, qual o tamanho máximo permitido?</a></li>
+                            <li><a href="#">Como eu cancelo um pedido já em andamento?</a></li>
+                            <li><a href="#">Como é calculado o valor do meu pedido?</a></li>
+                            <li><a href="#">O que é o valor adicional por espera?</a></li>
+                        </ul>
+                        <div><button>Ver todos</button></div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>E-commerce</h3>
+                        <ul>
+                            <li><a href="#">Como faço cadastro para e-commerce?</a></li>
+                            <li><a href="#">Qual a diferença desse tipo de corrida para o Loggi Ja?</a></li>
+                            <li><a href="#">E se ocorrer um imprevisto durante a entrega?</a></li>
+                            <li><a href="#">Como vejo status da minha compra online?!</a></li>
+                        </ul>
+                        <div><button>Ver todos</button></div>
+                    </div>
+                </div>
+                <div class="row faq-row2">
+                    <div class="col-md-4">
+                        <h3>Restaurantes</h3>
+                        <ul>
+                            <li><a href="#">Tenho um restaurante, como faço o cadastro?</a></li>
+                            <li><a href="#">Só posso transportar refeições?</a></li>
+                            <li><a href="#">Vocês possuem bolsa térmica?</a></li>
+                            <li><a href="#">Se algo acontecer com a comida, serei reembolsado?</a></li>
+                            <li><a href="#">Como controlo minhas vendas no app?</a></li>
+                        </ul>
+                        <div><button>Ver todos</button></div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Mensageiros</h3>
+                        <ul>
+                            <li><a href="#">Como entro para Loggi?</a></li>
+                            <li><a href="#">Ao me cadastrar, serei funcionário Loggi?</a></li>
+                            <li><a href="#">Quais os documentos necessários?</a></li>
+                            <li><a href="#">Quanto vou ganhar?</a></li>
+                            <li><a href="#">A Loggi exige exclusividade?</a></li>
+                        </ul>
+                        <div><button>Ver todos</button></div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Pessoa Física</h3>
+                        <ul>
+                            <li><a href="#">Posso agendar a minha entrega?</a></li>
+                            <li><a href="#">O que é reserva de crédito?</a></li>
+                            <li><a href="#">Quero enviar um pacote, qual o tamanho máximo permitido?</a></li>
+                            <li><a href="#">Não consigo inserir o endereço, e agora?</a></li>
+                            <li><a href="#">Como eu cancelo um pedido já em andamento?</a></li>
+                        </ul>
+                        <div><button>Ver todos</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="for-messengers">
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="messenger-section-title" class="row text-center">
+                        <h1>Sou mensageiro e tenho uma dúvida</h1>
+                    </div>
+                    <div id="messenger-section-button" class="row text-center">
+                        <button>Enviar solicitação</button>
+                    </div>
+                </div>
+            </div>
+            <div id="img-messenger" class="img-responsive center-block" />
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-xs-6">
+                            <ul>
+                                <li>PARA O SEU NEGÓCIO</li>
+                                <li><a href="#">Sua Empresa</a></li>
+                                <li><a href="#">Seu E-commerce</a></li>
+                                <li><a href="#">Seu Restaurante</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-xs-6">
+                            <ul>
+                                <li>CADASTRE-SE</li>
+                                <li><a href="#">Pessoa Física</a></li>
+                                <li><a href="#">Mensageiros</a></li>
+                            </ul>
+                        </div>
+                        <div class="clearfix visible-xs-block"></div>
+                        <div class="col-md-2 col-xs-6">
+                            <ul>
+                                <li>SOBRE A LOGGI</li>
+                                <li><a href="#">Como Funciona</a></li>
+                                <li><a href="#">Vantagens Loggi</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Trabalhe Conosco</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-xs-6">
+                            <ul>
+                                <li>DÚVIDAS</li>
+                                <li><a href="#">Fale Conosco</a></li>
+                                <li><a href="#">Guia Loggi</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">API</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-xs-6">
+                            <h5>BAIXE O APP</h5>
+                            <ul class="ul-horizontal footer-icons">
+                                <li>
+                                    <a class="svg" href="#">
+                                        <object data="assets/ico-android.svg" 
+                                        type="image/svg+xml" 
+                                        width="19" 
+                                        height="21">
+                                        <img src="assets/android.png" alt="android logo">
+                                    </object>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="svg" href="#">
+                                    <object data="assets/ico-apple.svg" 
+                                    type="image/svg+xml" 
+                                    width="17" 
+                                    height="21" >
+                                    <img src="assets/apple.png" alt="apple logo">                  
+                                </object>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <h5>SOCIAL MEDIA</h5>
+                    <ul class="ul-horizontal footer-icons">
+                        <li>
+                            <a class="svg" href="#">
+                                <object data="assets/ico-facebook.svg" 
+                                        type="image/svg+xml" 
+                                        width="9" 
+                                        height="18" >
+                                    <img src="assets/facebook.png" alt="facebook logo">                  
+                                </object>       
+                            </a>
+                        </li>
+                        <li>
+                            <a class="svg" href="#">
+                                <object data="assets/ico-linkedin.svg" 
+                                        type="image/svg+xml" 
+                                        width="18" 
+                                        height="17" >
+                                    <img src="assets/linkedin.png" alt="linkedin logo">                  
+                                </object>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="svg" href="#">
+                                    <object data="assets/ico-twitter.svg" 
+                                            type="image/svg+xml" 
+                                            width="18" 
+                                            height="15" >
+                                    <img src="assets/twitter.png" alt="twitter logo">                  
+                                </object>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="svg" href="#">
+                                <object data="assets/ico-youtube.svg" 
+                                        type="image/svg+xml" 
+                                        width="19" 
+                                        height="13" >
+                                    <img src="assets/youtube.png" alt="youtube logo">                  
+                                </object>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-below">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-11">
+                    <span>
+                        Copyright &copy; <script>var yearPublished = 2016; var currYear = new Date().getFullYear(); document.write( currYear == yearPublished ? yearPublished : yearPublished + " - " + currYear); </script>
+                    Loggi Tecnologia</span> 
+                    <span class="hidden-xs">|</span> 
+                    <span>Todos os direitos reservados</span> 
+                    <span class="hidden-xs">|</span> 
+                    <span>Termos de Uso</span>
+                </div>
+                <object class="col-md-1 pull-right"
+                        data="assets/ico-coelho.svg" 
+                        type="image/svg+xml" 
+                        width="25" 
+                        height="24">
+                    <img src="assets/coelho.png" alt="loggi logo"/>                  
+                </object>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="libs/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
